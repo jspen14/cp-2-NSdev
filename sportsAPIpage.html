@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width = device=width, initial-scale = 1">
+  <title>RateMyRef</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  
+  <style>
+    .jumbotron{
+      background-color: #2E2D88;
+      color: white;
+    
+    }
+    .user_section{
+     text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 6vh">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" style="font-size: 6vh" href="#!">Rate.My.Ref.</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#!">Sports Scores</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  
+  <div class="container" "> <!-- style="background-color: #404040; -->
+    <div class="row">
+
+      <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12">
+        <div class="user_section">
+            <form>
+            <label>NBA</label>
+            <input id="nbaInput" type="text"></input><br/><br/>
+            <input id="nbaSubmit" type="submit" value="Submit"></input>
+            </form>
+
+          <div style="text-align:left" id="nbaResults"></div>
+            
+        </div>
+      </div>
+
+
+      <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12">
+      </div>
+
+
+       <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12">
+      </div>
+
+      
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script text="type/javascript" src="script.js"></script> 
+</body>
+</html>
